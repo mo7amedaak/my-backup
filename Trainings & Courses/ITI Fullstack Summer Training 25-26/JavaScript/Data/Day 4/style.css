@@ -1,0 +1,15 @@
+div p.prag{
+color:red;
+}
+
+#section {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+
+body{
+    height: 50000px;
+}

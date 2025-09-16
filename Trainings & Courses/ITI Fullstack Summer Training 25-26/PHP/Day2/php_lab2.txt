@@ -1,0 +1,6 @@
+- create registartion form consist of name, email, password, image.
+- in server side check the uploaded file is image and its size less than 1M.
+- if the file doesn't image or its size more than 1M redirect to registration form with error message and display it.
+- if sumbitted data is valid store it in json file (rename it database.json) and redirect to the page displaying all Registered Data.
+- create folder to store uploaded images using mkdir.
+- create page display all registered users in table.

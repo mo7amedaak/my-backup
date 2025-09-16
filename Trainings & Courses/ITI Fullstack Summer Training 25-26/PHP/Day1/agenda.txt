@@ -1,0 +1,14 @@
+• What is PHP
+• PHP syntax
+• Comments
+• Variables and Constants
+• Datatypes
+• Casting
+• Common functions
+• Operators
+• conditional statements (if, switch)
+• Loops
+• Arrays
+• Array Operators
+• Array functions
+• Functions

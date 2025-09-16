@@ -1,0 +1,13 @@
+
+● Intro to JavaScript
+● where js code is written
+● Comments
+● Output to Screen
+● Variables and Datatypes
+● falsy values
+● JS Coercion
+● Hoisting
+● JS Operators
+● Control Flow => statment conditions => if , switch 
+iterations => loops
+interact with user

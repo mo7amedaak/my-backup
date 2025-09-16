@@ -1,0 +1,24 @@
+● Sql Alias
+● subqueries
+● limit
+● Group By
+● Having
+● UNION 
+● IFNULL
+● ANY, ALL operators => subqueries
+● Join => inner join , left join get all data of left side 
+products right join categories
+● views
+● case ... when
+select name, description, price, 
+case
+    when price>1000 then "expensive"
+    when price<50 then "cheap"
+    else "moderate"
+END as "price_category"
+
+from products;
+-------------------------
+● index
+● Stored Procedure => 
+● transaction 

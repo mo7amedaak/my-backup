@@ -1,0 +1,10 @@
+- create registartion form consist of name, email, password, image store data in database.
+- in server side ckeck the uploaded file is image and its size less than 1M. 
+- if the file doesn't image or its size more than 1M redirect to registration form with error message and display it.
+- validate form and return error if any field is empty. 
+- create login form redirect to profile page form if user has account.
+- if sumbitted data is valid store it in database and redirect to the profile page.
+- create profile update page.
+- Only access profile page and update profile page when user is login else redirect to login form with error message.
+- NOTE: doesn't submit any form without validate all fields.
+

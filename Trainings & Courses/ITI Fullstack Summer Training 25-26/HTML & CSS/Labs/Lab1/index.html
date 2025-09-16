@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--------------lists part--------------->
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>
+            <ol type="1">
+                <li>item 1</li>
+                <li>item 2</li>
+                
+                    <ul type="square">
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                        <li>item 4</li>
+                    </ul>
+                <li>item 3</li>
+                <li>item 4</li>
+                <li>item 5</li>
+            </ol>
+        </li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+   <dl>
+    <dt>html</dt>
+    <dd>this is <b>markup</b> language descripes the <mark>structure</mark>.</dd>
+    <dt>Css</dt>
+    <dd>this is a <u>styling</u> language descripes the presentation.</dd>
+   </dl>
+   <hr>
+   <!------------------data table---------------->
+   <table border="1">
+        <thead>
+            <tr>
+                <th colspan="6">all data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">name</th>
+                <td>ahmed</td>
+                <th rowspan="4">phone</th>
+                <td>01110062020</td>
+                <th rowspan="4">email</th>
+                <td>ahmed@gmail.com</td>
+            </tr>
+            <tr>
+                <td>sayed</td>
+                <td>01016509131</td>
+                <td>sayed@gmail.com</td>
+            </tr>
+            <tr>
+                <td>khaled</td>
+                <td>01114589669</td>
+                <td>khaled@gmail.com</td>
+            </tr>
+            <tr>
+                <td>morad</td>
+                <td>01114589669</td>
+                <td>morad@gmail.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">working hours</th>
+                <th colspan="3">70/month</th>
+            </tr>
+        </tfoot>
+   </table>
+   <hr>
+   <!-----------------registration form----------------->
+   <form action="">
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>First name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Last name</td>
+                <td><input type="text"></td>
+            </tr><tr>
+                <td>User name</td>
+                <td><input type="text"></td>
+            </tr><tr>
+                <td>Pass</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Track</td>
+                <td>
+                    <select name="Tracks" id="tracks">
+                        <option value="BI">BI</option>
+                        <option value="AI">AI</option>
+                        <option value="CyberSecurity">CyberSecurity</option>
+                        <option value="FullStack">FullStack</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Gender</td>
+                <td>
+                    <input type="radio" id="male" > 
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="female" > 
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td >Favorites</td>
+                <td >
+                    <input type="checkbox" id="football">
+                    <label for="football">football</label>
+                    <input type="checkbox" id="basketball">
+                    <label for="basketball">basketball</label> <br>
+                    <input type="checkbox" id="games">
+                    <label for="games">games</label> <br>
+                    <input type="checkbox" id="reading">
+                    <label for="reading">reading</label>
+                    <input type="checkbox" id="swimming">
+                    <label for="swimming">swimming</label> <br>
+                    <input type="checkbox" id="travel">
+                    <label for="travel">travel</label>
+                </td>
+            </tr>
+            <tr>
+                <td >description</td>
+                <td ><textarea name="description" id="description" rows="7" ></textarea></td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" value="Submit">
+                    <input type="button" value="Reset">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="file">
+                </td>
+            </tr>
+        
+        </tbody>
+        
+    </table>
+   </form>
+   <hr>
+   <!----------------------Info Part----------------------->
+   <div class="myinfo">
+    <h2>My info</h2>
+    <p>My Name Is: <b>Ahmed Ali</b></p>
+    <p>I am <b>Avialable</b> For Hire</p>
+    <p>My Hour Old Price Is <del>$30</del> And The New Price Is <mark>$50</mark></p>
+    <p>Visit My Website From This Link <a href="#" ><u>github</u></a></p> 
+   </div>
+   <hr>
+   <div class="clients">
+    <h1>Here Is Some Of My Clients</h1>
+    <img src="images/istockphoto-629517464-170667a.jpg" alt="client" width="200" height="200">
+    <img src="images/images.jpeg" alt="client" width="200" height="200">
+    <img src="images/premium_photo-1689539137236-b68e436248de.jpeg" alt="client" width="200" height="200"> 
+   </div>
+</body>
+</html>

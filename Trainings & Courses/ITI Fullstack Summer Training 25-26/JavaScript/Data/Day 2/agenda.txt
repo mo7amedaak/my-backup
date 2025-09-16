@@ -1,0 +1,16 @@
+● Loops
+ 	for loop
+ 	while loop
+ 	do while
+● Flow control Keywords.
+    break Keyword
+    continue Keyword
+● Array and object.
+● Array methods.
+● Spread Operator.
+● For in and for of loops.
+● String methods.
+● Math Object.
+---------------------
+● Functions => user defined function
+● Array Iteration methods

@@ -1,0 +1,20 @@
+===> generate controller students ==> id , name , address , image
+and handle all functions ==> index , show , destroy ,edit
+
+=================> 
+controller ==> track   ==> id,name , description , image
+index , show , destroy  , edit
+
+
+===========> bonous==>  edit 
+
+
+=========================> steps ==> install sql ==>. laragon 
+start , database ==> php myadmin ==> username , password 
+create database ===> 
+===> project  ==> .env ==> dbtype====
+============================>
+terminal ==> cd projectName 
+
+===> php artisan migrate
+===> php artisan serve 

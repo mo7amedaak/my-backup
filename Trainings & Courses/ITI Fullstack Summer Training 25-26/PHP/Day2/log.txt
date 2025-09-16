@@ -1,0 +1,3 @@
+
+there is error in fileE:\emem\Work\ITI\PHP G1\php\day2\index.php in line 49, the file 'test.txt' can't be writable at 2025-07-22
+there is error in file E:\emem\Work\ITI\PHP G1\php\day2\index.php in line 49, the file 'test.txt' can't be writable at 2025-07-22

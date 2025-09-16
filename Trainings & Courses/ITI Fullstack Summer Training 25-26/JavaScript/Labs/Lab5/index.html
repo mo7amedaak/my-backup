@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Products Table</h1>
+    <button onclick="createProduct()">Create Product</button>
+  </div>
+
+  <div class="table-container">
+    <table class="product-table">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="products-part"></tbody>
+    </table>
+  </div>
+
+  <div id="productForm" class="modal">
+    <form id="addProductForm" onsubmit="return submitProduct(event)">
+      <input type="hidden" id="productId">
+      <label for="title">Title</label>
+      <input type="text" id="title" />
+
+      <label for="Description">Description</label>
+      <textarea id="Description" placeholder="Description"></textarea>
+
+      <label for="Price">Price</label>
+      <input type="number" id="Price" />
+
+      <label for="Image">Image</label>
+      <input type="url" id="Image" placeholder="Enter image URL" />
+
+      <div class="form-buttons">
+        <button type="submit">Submit</button>
+        <button type="button" onclick="closeForm()">Cancel</button>
+      </div>
+    </form>
+  </div>
+
+  <div id="viewModal" class="modal">
+    <h2 id="viewTitle"></h2>
+    <img id="viewImage" src="" alt="Product Image" />
+    <p id="viewDescription"></p>
+    <p><strong>Price:</strong> <span id="viewPrice"></span> $</p>
+    <button onclick="closeViewModal()">Close</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

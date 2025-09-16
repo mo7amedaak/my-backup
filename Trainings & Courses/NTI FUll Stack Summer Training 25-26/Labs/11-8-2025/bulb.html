@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="img">
+        <img id="off" src="pic_bulboff.gif" alt="">
+        <img src="pic_bulbon.gif" alt="" id="on" style="display: none;">
+        <button id="onbtn">ON</button>
+        <button id="offbtn">OFF</button>
+    </div>
+    <script>
+        let on = document.getElementById("on");
+        let off = document.getElementById("off");
+        let onbtn = document.getElementById("onbtn");
+        let offbtn = document.getElementById("offbtn");
+
+        onbtn.addEventListener("click", function() {
+            on.style.display = "block";
+            off.style.display = "none";
+        });
+
+        offbtn.addEventListener("click", function() {
+            on.style.display = "none";
+            off.style.display = "block";
+        });
+    </script>
+</body>
+</html>

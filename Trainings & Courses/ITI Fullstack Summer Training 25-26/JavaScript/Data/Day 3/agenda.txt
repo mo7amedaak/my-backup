@@ -1,0 +1,19 @@
+● Functions (User Defined Functions)
+ 	Regular Function (Statement Function/ Declaration function)
+    Anonymous Function (Expression Function)
+    Arrow Function
+    Callback Function
+    Self Invoked Function
+● Local Scope.
+● Rest Operator.
+● Array Iteration Functions
+    foreach Function
+    map Function 
+    filter Function
+    reduce Function
+● Regular Expression (Regex)
+---------------------
+● Intro to DOM.
+● How To Select Element From DOM.
+---------
+Array destructuring using in swap

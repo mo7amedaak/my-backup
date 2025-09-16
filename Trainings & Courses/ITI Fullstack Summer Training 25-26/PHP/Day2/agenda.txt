@@ -1,0 +1,11 @@
+• Predefined Variables
+• File system
+    • Create and delete folder
+    • Create and delete file
+    • Open file
+    • Read from file
+    • Write to file
+    • Close file
+• Handling Form
+• Global Variables in PHP
+• Dealing with Json

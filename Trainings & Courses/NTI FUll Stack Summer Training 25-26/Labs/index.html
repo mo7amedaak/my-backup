@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    #name{
+      color: #ff0000;
+    }
+
+    button{
+      background-color: teal;
+      border: 0px;
+      color: #fff;
+      padding: 5px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hello <span id="name">Mohamed Adel</span></h1>
+  <button id="" class="" onclick="changeName()">Click Here To Change Name</button>
+
+  <script>
+    let name = document.getElementById("name");
+
+    function changeName() {
+      let newName = prompt("Please Enter Your Name");
+      name.innerText = newName;
+    }
+  </script>
+
+</body>
+</html>

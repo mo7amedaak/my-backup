@@ -1,0 +1,13 @@
+• What is OOP ?
+• What is the class and object ?
+• OOP Principles
+• Encapsulation
+• Inheritance
+• polymorphism
+• Abstraction.
+• Static and const keywords
+• Self and this keywords
+-------------------
+
+interface => abstract class
+trait => use trait name => enable inheret more than one class

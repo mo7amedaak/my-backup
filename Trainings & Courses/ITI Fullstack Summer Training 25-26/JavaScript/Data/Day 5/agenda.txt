@@ -1,0 +1,6 @@
+● Async & sync functions.
+● Callback and callback hell.
+● Promises.
+● Fetch API.
+● JSON
+● Async/await.

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            height: 5000px;
+        }
+
+        .box {
+            width: 200px;
+            margin-top: 10px;
+            height: 200px;
+            background-color: red;
+            transition: all 1s cubic-bezier(0.4, 0, 1, 1);
+            margin: auto;
+
+            animation-name: Move;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+            animation-play-state: paused;
+        }
+
+        .box:hover {
+            animation-play-state: running;
+        }
+
+        @keyframes MoveAndChangeColor {
+            from {
+                background-color: green;
+                transform: translateX(100px);
+            }
+
+            to {
+                background-color: blue;
+                transform: translateX(100px);
+            }
+        }
+
+        @keyframes Move {
+            0% {
+                background-color: blue;
+            }
+
+            50% {
+                background-color: yellow;
+            }
+
+            100% {
+                background-color: teal;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="https://www.facebook.com">facebook</a></li>
+        <li><a href="https://www.youtube.com">YouTube</a></li>
+        <li><a href="https://www.google.com">Google</a></li>
+        <li><a href="https://www.x.com">Twitter</a></li>
+        <li><a href="https://web.whatsapp.com">whatsapp</a></li>
+    </ul>
+
+    <form action="#">
+        <input type="text" name="username" placeholder="username">
+        <input type="submit">
+        <div class="box"></div>
+    </form>
+
+</body>
+
+</html>

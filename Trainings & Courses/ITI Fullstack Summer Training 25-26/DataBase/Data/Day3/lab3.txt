@@ -1,0 +1,8 @@
+1-- select last order for each user
+2-- select user that has higher order price
+3-- select users that has orders in this month
+4-- select users that did't have orders in last 2 months
+5-- select higher month for total number of orders
+6-- select higher month for orders price
+7-- select user that has higher order price in last month
+8-- select products name and category name and price and the category of price if it is exspensive or moderate or cheap.
